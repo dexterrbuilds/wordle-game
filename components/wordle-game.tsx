@@ -92,7 +92,7 @@ export default function WordleGame() {
     <div className="flex flex-col items-center w-full max-w-md">
       <div className="w-full p-4 mb-4 bg-blue-50 rounded-lg border border-blue-200">
         <p className="text-center text-blue-800 font-medium">
-          Hint: .sol 
+          Hint: sns 
         </p>
       </div>
       {message && (
