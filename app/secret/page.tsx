@@ -99,15 +99,15 @@ export default function SecretPage() {
   const [errorMessage, setErrorMessage] = useState("")
 
   // The correct answer to the riddle
-  const correctAnswer = "they yield"
+  const correctAnswer = "they surrender"
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
 
     if (
-      answer.toLowerCase().includes("yield") ||
-      answer.toLowerCase().includes("they yield") ||
-      answer.toLowerCase().includes("they both yield")
+      answer.toLowerCase().includes("surrender") ||
+      answer.toLowerCase().includes("they surrender") ||
+      answer.toLowerCase().includes("they both surrender")
     ) {
       setIsKeyVisible(true)
       setErrorMessage("")
